@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="intro-wrap">
+    <view class="logo">
+      <image src="/images/logo.jpg"/>
+    </view>
+    <view class="desc-wrap">
+      <view class="name">时间卡</view>
+      <view class="desc">轻松记录每一个纪念日</view>
+    </view>
+  </view>
+</view>

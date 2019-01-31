@@ -1,0 +1,33 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  padding-bottom: 36rpx;
+}
+.intro-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-wrap .logo image{
+  width: 81rpx;
+  height: 81rpx;
+}
+.desc-wrap {
+  position: relative;
+  left: 36rpx;
+}
+.desc-wrap .name {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.desc-wrap .desc {
+  font-size: 32rpx;
+  color: #a1a1a1;
+}
